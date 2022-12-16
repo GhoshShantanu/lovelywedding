@@ -1,0 +1,641 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+ body{margin: 0%; padding: 0%;}
+
+@media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1320px;}}
+
+
+
+/* banner */
+.banner{background: url(../images/Group\ 20.png); background-size: cover; padding-top: 45px; position: relative; overflow: hidden; text-align: center; max-width: 100%; max-height: 100vh;}
+.banner h1{color: white; font-family: Great Vibes,sans-serif; font-weight: 500; font-size: 85px; margin-top: 15%;}
+.banner h3{font-family: Dosis,sans-serif; font-weight: 500; font-size: 35px; border-bottom: 2px solid white; border-top: 2px solid white; color: white; display: inline-block; margin-bottom: 15%;}
+.circle{width: 250px; height: 250px; border-radius: 50%; position: absolute; bottom: -25%; background: #5E9A8E; left: 50%; transform: translateX(-50%);}
+.banner .wedding_date .circle h5{text-align: center; color: white; font-family: Great Vibes,sans-serif; font-weight: 500; font-size: 25px; margin-top: 13%; margin-bottom: 0%;}
+.banner .wedding_date .circle p{text-align: center; font-family: Dosis,sans-serif; font-weight: 400; font-size: 15px; color: white;}
+
+@media only screen and (max-width: 1400px){
+    .circle {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -29%;
+        background: #5E9A8E;
+        left: 50%;
+        transform: translateX(-50%);}
+    .banner .wedding_date .circle h5 {
+        text-align: center;
+        color: white;
+        font-family: Great Vibes,sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        margin-top: 13%;
+        margin-bottom: 0%;}
+    .banner .wedding_date .circle p {
+        text-align: center;
+        font-family: Dosis,sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: white;}}
+           
+
+@media only screen and (max-width: 1200px){
+    .circle {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -33%;
+        background: #5E9A8E;
+        left: 50%;
+        transform: translateX(-50%);}
+    .banner .wedding_date .circle h5 {
+        text-align: center;
+        color: white;
+        font-family: Great Vibes,sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        margin-top: 13%;
+        margin-bottom: 0%;}
+    .banner .wedding_date .circle p {
+        text-align: center;
+        font-family: Dosis,sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: white;}}
+           
+
+@media only screen and (max-width: 992px){
+    .circle {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -30%;
+        background: #5E9A8E;
+        left: 50%;
+        transform: translateX(-50%);}
+    .banner .wedding_date .circle h5 {
+        text-align: center;
+        color: white;
+        font-family: Great Vibes,sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        margin-top: 13%;
+        margin-bottom: 0%;}
+    .banner .wedding_date .circle p {
+        text-align: center;
+        font-family: Dosis,sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: white;}}
+            
+
+@media only screen and (max-width: 768px){
+    .circle {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -27%;
+        background: #5E9A8E;
+        left: 50%;
+        transform: translateX(-50%);}
+    .banner .wedding_date .circle h5 {
+        text-align: center;
+        color: white;
+        font-family: Great Vibes,sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        margin-top: 13%;
+        margin-bottom: 0%;}
+    .banner .wedding_date .circle p {
+        text-align: center;
+        font-family: Dosis,sans-serif;
+        font-weight: 400;
+        font-size: 9px;
+        color: white;}
+    .banner h1 {
+            color: white;
+            font-family: Great Vibes,sans-serif;
+            font-weight: 500;
+            font-size: 65px;
+            margin-top: 15%;}
+    .banner h3 {
+            font-family: Dosis,sans-serif;
+            font-weight: 500;
+            font-size: 25px;
+            border-bottom: 2px solid white;
+            border-top: 2px solid white;
+            color: white;
+            display: inline-block;
+            margin-bottom: 15%;}}
+           
+@media only screen and (max-width: 576px){
+    .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -19%;
+        background: #5E9A8E;
+        left: 50%;
+        transform: translateX(-50%);}
+    .banner .wedding_date .circle h5 {
+        text-align: center;
+        color: white;
+        font-family: Great Vibes,sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        margin-top: 13%;
+        margin-bottom: 0%;}
+.banner .wedding_date .circle p {
+        text-align: center;
+        font-family: Dosis,sans-serif;
+        font-weight: 400;
+        font-size: 7px;
+        color: white;}
+.banner h1 {
+        color: white;
+        font-family: Great Vibes,sans-serif;
+        font-weight: 500;
+        font-size: 55px;
+        margin-top: 15%;}
+.banner h3 {
+        font-family: Dosis,sans-serif;
+        font-weight: 500;
+        font-size: 21px;
+        border-bottom: 2px solid white;
+        border-top: 2px solid white;
+        color: white;
+        display: inline-block;
+        margin-bottom: 15%;}}
+        
+@media only screen and (max-width: 472px){
+    .circle {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -19%;
+        background: #5E9A8E;
+        left: 50%;
+        transform: translateX(-50%);}
+    .banner .wedding_date .circle h5 {
+            text-align: center;
+            color: white;
+            font-family: Great Vibes,sans-serif;
+            font-weight: 500;
+            font-size: 10px;
+            margin-top: 13%;
+            margin-bottom: 0%;}
+    .banner .wedding_date .circle p {
+            text-align: center;
+            font-family: Dosis,sans-serif;
+            font-weight: 400;
+            font-size: 5px;
+            color: white;}
+    .banner h1 {
+            color: white;
+            font-family: Great Vibes,sans-serif;
+            font-weight: 500;
+            font-size: 45px;
+            margin-top: 15%;}
+    .banner h3 {
+            font-family: Dosis,sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+            border-bottom: 2px solid white;
+            border-top: 2px solid white;
+            color: white;
+            display: inline-block;
+            margin-bottom: 15%;}}
+              
+
+/* banner */
+
+/* nav */
+nav .col-md-4 h2{color: #5E9A8E; font-family: Great Vibes,sans-serif; font-weight: 800; font-size: 45px; padding: 10px 0px 10px 15px; margin: 0%; text-align: start;}
+nav .col-md-4 i{color: #5E9A8E; font-size: 45px;}
+.nav-link { display: block; padding: .5rem 1rem; padding-right: 1rem; padding-left: 1rem; color: #000; text-decoration: none; transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: 0;
+    margin-top: 0px;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+    list-style: none;
+    background-color: #5E9A8E;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;}
+  .dropdown-item:focus, .dropdown-item:hover {
+    color: #5E9A8E;
+    background-color: #ffffff;}
+
+ @media (min-width: 1250px){
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    padding-left: 17%;}}
+
+@media only screen and (max-width: 768px) {
+    nav .col-md-4 h2{font-size: 35px;}
+    nav .col-md-4 i{font-size: 35px;}}
+
+@media only screen and (max-width: 576px) {
+    nav .col-md-4 h2{font-size: 25px;}
+    nav .col-md-4 i{font-size: 25px;}}
+
+  
+      
+/* nav */
+
+/* secgroom_bride */
+.secgroom_bride{padding: 30px 0px;}
+.secgroom_bride .bride_groom{text-align: center; margin: 3% 0%;}
+.secgroom_bride .bride_groom .img img{max-width: 100%;}
+.secgroom_bride .bride_groom .heading h2{color: #5E9A8E; background: #E2E2E2; padding: 15px 25px; display: inline-block; font-family: Great Vibes,sans-serif; font-weight: 500; font-size: 45px;}
+.secgroom_bride .row{display: inline-flex;}
+.secgroom_bride .col-md-6{padding: 0%; margin: 0%; max-width: 100%;}
+.secgroom_bride .col-md-6 img{width: 100%;}
+.secgroom_bride .col-md-6 .information_groom{padding: 20px 25px;}
+.secgroom_bride .col-md-6 .information_groom .info p{margin-right: 10%; font-family: Dosis,sans-serif; font-weight: 500; font-size: 20px; color: #7C7C7C;}
+.secgroom_bride .col-md-6 .information_groom .heading h3{font-family: Dosis,sans-serif; font-weight: 500; font-size: 35px; color: #7C7C7C;}
+.secgroom_bride .col-md-6 .information_groom .name p{font-family: Great Vibes,sans-serif; font-weight: 500; font-size: 35px; color: #000000; position: relative; margin-left: 50px;}
+.secgroom_bride .col-md-6 .information_groom .name p::after{content: ''; position: absolute; width: 35px; height: 3px; background: #000000; left: -35px; bottom: 20px;}
+.secgroom_bride .col-md-6 .information_groom .socialmedia ul{margin: 0%; padding: 0%;}
+.secgroom_bride .col-md-6 .information_groom .socialmedia ul li{list-style-type: none; display: inline-flex; padding: 0px 15px;}
+.secgroom_bride .col-md-6 .information_groom .socialmedia ul li a i{text-decoration: none; color: white; background: #5E9A8E; height: 50px; width: 50px; border-radius: 50%; text-align: center; padding: 12px; font-size: 25px; border: 1px solid #5E9A8E;}
+.secgroom_bride .col-md-6 .information_groom .socialmedia ul li a i:hover{color: #5E9A8E; background: white; border: 1px solid #5E9A8E;}
+.secgroom_bride .col-md-6 .information_bride{padding: 20px 25px; text-align: end;}
+.secgroom_bride .col-md-6 .information_bride .info p{margin-left: 10%; font-family: Dosis,sans-serif; font-weight: 500; font-size: 20px; color: #7C7C7C;}
+.secgroom_bride .col-md-6 .information_bride .heading h3{font-family: Dosis,sans-serif; font-weight: 500; font-size: 35px; color: #7C7C7C;}
+.secgroom_bride .col-md-6 .information_bride .name p{font-family: Great Vibes,sans-serif; font-weight: 500; font-size: 35px; color: #000000; position: relative; margin-right: 50px;}
+.secgroom_bride .col-md-6 .information_bride .name p::after{content: ''; position: absolute; width: 35px; height: 3px; background: #000000; right: -35px; bottom: 20px;}
+.secgroom_bride .col-md-6 .information_bride .socialmedia ul{margin: 0%; padding: 0%;}
+.secgroom_bride .col-md-6 .information_bride .socialmedia ul li{list-style-type: none; display: inline-flex; padding: 0px 15px;}
+.secgroom_bride .col-md-6 .information_bride .socialmedia ul li a i{text-decoration: none; color: white; background: #5E9A8E; height: 50px; width: 50px; border-radius: 50%; text-align: center; padding: 12px; font-size: 25px; border: 1px solid #5E9A8E;}
+.secgroom_bride .col-md-6 .information_bride .socialmedia ul li a i:hover{color: #5E9A8E; background: white; border: 1px solid #5E9A8E;}
+
+@media only screen and (max-width: 992px){
+    .secgroom_bride .col-md-6 .information_bride .socialmedia ul li{padding: 0px 10px;}
+    .secgroom_bride .col-md-6 .information_groom .socialmedia ul li{padding: 0px 10px;}
+}
+/* secgroom_bride */
+
+/* bannerno_2 */
+.bannerno_2{background: url(../images/Group\ 21.png); background-size: cover; max-width: 100%; padding: 50px 0px; margin-top: 5%;}
+.bannerno_2 .row{margin: 5% 0%;}
+.bannerno_2 .col-lg-4 p{color: white; font-family: Great Vibes,sans-serif; font-weight: 500; font-size: 25px; }
+.bannerno_2 .col-lg-4 h2{color: white; font-family: Great Vibes,sans-serif; font-weight: 500; font-size: 45px; }
+.bannerno_2 .col-lg-8 ul{display: inline-flex; padding: 0%; margin: 0%;}
+.bannerno_2 .col-lg-8 ul li{list-style-type: none; padding: 0px 20px;}
+.bannerno_2 .col-lg-8 ul li p{color: #5E9A8E; background: white; padding: 15px 45px; font-family: Dosis,sans-serif; font-weight: 500; font-size: 45px; margin: 0%; text-align: center;}
+.bannerno_2 .col-lg-8 ul li p span{color: #5E9A8E; font-family: Dosis,sans-serif; font-weight: 500; font-size: 18px; text-align: center;}
+.bannerno_2 .col-lg-8 .col-sm-3 .time{text-align: center;}
+.bannerno_2 .col-lg-8 .col-sm-3 .time#counter-box p.counter{color: #5E9A8E; font-family: Dosis,sans-serif; font-weight: 500; font-size: 45px; background: white; padding: 30px 20px 5px 20px; margin: 0%;}
+.bannerno_2 .col-lg-8 .col-sm-3 .time h6{color: #5E9A8E; font-family: Dosis,sans-serif; font-weight: 500; font-size: 20px; background: white; padding: 5px 20px 30px 20px;}
+/* bannerno_2 */
+
+/* ourlovestory */
+.ourlovestory{padding: 30px 0px; }
+.ourlovestory .lovestory{text-align: center; margin: 3% 0%;}
+.ourlovestory .lovestory .img img{max-width: 100%;}
+.ourlovestory .lovestory .heading h2{color: #5E9A8E; background: #E2E2E2; padding: 15px 25px; display: inline-block; font-family: Great Vibes,sans-serif; font-weight: 500; font-size: 45px;}
+.ourlovestory .row{margin: 5% 0%;}
+.ourlovestory .col-md-6 img{max-width: 100%;}
+.ourlovestory .col-md-6 .information_firstMeet{text-align: end; padding-right: 5%;}
+.ourlovestory .col-md-6 .information_firstMeetimg{padding-left: 5%;}
+.ourlovestory .col-md-6 .information_firstMeet .heading h3{font-family: Dosis,sans-serif; font-weight: 600; font-size: 35px; color: #5E9A8E;}
+.ourlovestory .col-md-6 .information_firstMeet .date p{font-family: Dosis,sans-serif; font-weight: 400; font-size: 18px; color: #5E9A8E;}
+.ourlovestory .col-md-6 .information_firstMeet .info p{font-family: Dosis,sans-serif; font-weight: 400; font-size: 22px; color: #5E9A8E;}
+.ourlovestory .col-md-6 .information_firstDate{position: relative; padding-left: 5%;}
+.ourlovestory .col-md-6 .information_firstDateimg{padding-right: 5%;}
+.ourlovestory .col-md-6 .information_firstDate .heading h3{font-family: Dosis,sans-serif; font-weight: 600; font-size: 35px; color: #5E9A8E;}
+.ourlovestory .col-md-6 .information_firstDate .date p{font-family: Dosis,sans-serif; font-weight: 400; font-size: 18px; color: #5E9A8E;}
+.ourlovestory .col-md-6 .information_firstDate .info p{font-family: Dosis,sans-serif; font-weight: 400; font-size: 22px; color: #5E9A8E;}
+.ourlovestory .col-md-6 .information_firstDate::after{content: ''; position: absolute; height: 1774px; width: 1px; background: #5E9A8E; right: 622px; bottom: -1090px;}
+.ourlovestory .col-md-6 .information_firstDate::before{position: absolute; content: ''; position: absolute; height: 1px; width: 630px; background: #5E9A8E; right: 0px; top: -30px;}
+.ourlovestory .col-md-6 .information_proposal{position: relative; text-align: end; padding-right: 5%;}
+.ourlovestory .col-md-6 .information_proposalimg{padding-left: 5%;}
+.ourlovestory .col-md-6 .information_proposal .heading h3{font-family: Dosis,sans-serif; font-weight: 600; font-size: 35px; color: #5E9A8E;}
+.ourlovestory .col-md-6 .information_proposal .date p{font-family: Dosis,sans-serif; font-weight: 400; font-size: 18px; color: #5E9A8E;}
+.ourlovestory .col-md-6 .information_proposal .info p{font-family: Dosis,sans-serif; font-weight: 400; font-size: 22px; color: #5E9A8E;}
+.ourlovestory .col-md-6 .information_proposal::before{position: absolute; content: ''; position: absolute; height: 1px; width: 630px; background: #5E9A8E; left: 0px; top: -30px;}
+.ourlovestory .col-md-6 .information_engagement{position: relative; padding-left: 5%;}
+.ourlovestory .col-md-6 .information_engagementimg{padding-right: 5%;}
+.ourlovestory .col-md-6 .information_engagement .heading h3{font-family: Dosis,sans-serif; font-weight: 600; font-size: 35px; color: #5E9A8E;}
+.ourlovestory .col-md-6 .information_engagement .date p{font-family: Dosis,sans-serif; font-weight: 400; font-size: 18px; color: #5E9A8E;}
+.ourlovestory .col-md-6 .information_engagement .info p{font-family: Dosis,sans-serif; font-weight: 400; font-size: 22px; color: #5E9A8E;}
+.ourlovestory .col-md-6 .information_engagement::before{position: absolute; content: ''; position: absolute; height: 1px; width: 630px; background: #5E9A8E; right: 0px; top: -30px;}
+.ourlovestory .col-md-6 .information_engagement i{position: absolute; left: -31px; top: -50px; font-size: 20px; background: #5E9A8E; color: white; border-radius: 50%; padding: 10px;}
+.ourlovestory .col-md-6 .information_proposal i{position: absolute; right: -34px; top: -50px; font-size: 20px; background: #5E9A8E; color: white; border-radius: 50%; padding: 10px;}
+.ourlovestory .col-md-6 .information_firstDate i{position: absolute; left: -31px; top: -50px; font-size: 20px; background: #5E9A8E; color: white; border-radius: 50%; padding: 10px; z-index: 1;}
+
+@media only screen and (max-width: 1400px){
+    .ourlovestory .col-md-6 .information_firstDate::after {
+        position: absolute;
+        content: '';
+        height: 1515px;
+        width: 1px;
+        background: #5E9A8E;
+        right: 531px;
+        bottom: -866px;}
+    .ourlovestory .col-md-6 .information_proposal::before {
+        position: absolute;
+        height: 1px;
+        width: 550px;
+        background: #5E9A8E;
+        left: 0px;
+        top: -30px;}
+    .ourlovestory .col-md-6 .information_engagement::before {
+        position: absolute;
+        content: '';
+        height: 1px;
+        width: 550px;
+        background: #5E9A8E;
+        left: 0px;
+        top: -30px;}
+    .ourlovestory .col-md-6 .information_firstDate::before {
+        position: absolute;
+        content: '';
+        height: 1px;
+        width: 550px;
+        background: #5E9A8E;
+        left: 0px;
+        top: -30px;}}
+
+@media only screen and (max-width: 1200px){
+    .ourlovestory .col-md-6 .information_firstDate::after {
+        position: absolute;
+        content: '';
+        height: 1344px;
+        width: 1px;
+        background: #5E9A8E;
+        right: 443px;
+        bottom: -701px;}
+    .ourlovestory .col-md-6 .information_proposal::before {
+        position: absolute;
+        content: '';
+        height: 1px;
+        width: 450px;
+        background: #5E9A8E;
+        left: 0px;
+        top: -30px;}
+    .ourlovestory .col-md-6 .information_engagement::before {
+        position: absolute;
+        content: '';
+        height: 1px;
+        width: 450px;
+        background: #5E9A8E;
+        left: 0px;
+        top: -30px;}
+    .ourlovestory .col-md-6 .information_firstDate::before {
+        position: absolute;
+        content: '';
+        height: 1px;
+        width: 450px;
+        background: #5E9A8E;
+        left: 0px;
+        top: -30px;}}
+
+@media only screen and (max-width: 992px){
+    .ourlovestory .col-md-6 .information_firstDate::after {
+        position: absolute;
+        content: '';
+        height: 1700px;
+        width: 1px;
+        background: #5E9A8E;
+        right: 323px;
+        bottom: -870px;}
+    .ourlovestory .col-md-6 .information_proposal::before {
+        position: absolute;
+        content: '';
+        height: 1px;
+        width: 340px;
+        background: #5E9A8E;
+        left: 0px;
+        top: -30px;}
+    .ourlovestory .col-md-6 .information_engagement::before {
+        position: absolute;
+        content: '';
+        height: 1px;
+        width: 340px;
+        background: #5E9A8E;
+        left: 0px;
+        top: -30px;}
+    .ourlovestory .col-md-6 .information_firstDate::before {
+        position: absolute;
+        content: '';
+        height: 1px;
+        width: 340px;
+        background: #5E9A8E;
+        left: 0px;
+        top: -30px;}}
+
+@media only screen and (max-width: 768px){
+    .ourlovestory .col-md-6 .information_engagement::before{display: none;}
+    .ourlovestory .col-md-6 .information_proposal::before{display: none;}
+    .ourlovestory .col-md-6 .information_firstDate::before{display: none;}
+    .ourlovestory .col-md-6 .information_firstDate::after{display: none;}
+    .ourlovestory .col-md-6 .information_firstDate i{display: none;}
+    .ourlovestory .col-md-6 .information_proposal i{display: none;}
+    .ourlovestory .col-md-6 .information_engagement i{display: none;}}
+/* ourlovestory */
+
+/* bannerno_3 */
+.bannerno_3{background: url(../images/banner\ 2.png); background-size: cover; max-width: 100%; padding: 50px 0px;}
+.bannerno_3 .celebration{margin: 10% 0%; text-align: center;}
+.bannerno_3 .celebration span{color: white; font-family: Great Vibes,sans-serif; font-weight: 500; font-size: 25px;}
+.bannerno_3 .celebration h2{color: white; font-family: Great Vibes,sans-serif; font-weight: 500; font-size: 45px; padding-top: 20px;}
+/* bannerno_3 */
+
+/* wedding_events */
+.wedding_events{padding: 30px 0px; }
+.wedding_events .events{text-align: center; margin: 3% 0%;}
+.wedding_events .events .img img{max-width: 100%;}
+.wedding_events .events .heading h2{color: #5E9A8E; background: #E2E2E2; padding: 15px 25px; display: inline-block; font-family: Great Vibes,sans-serif; font-weight: 500; font-size: 45px;}
+.wedding_events .row{margin-bottom: 5%;}
+.wedding_events .col-md-5 img{max-width: 100%;}
+.wedding_events .col-md-7 .heading h3{font-family: Dosis,sans-serif; font-weight: 400; font-size: 35px; color: #5E9A8E;}
+.wedding_events .col-md-7 .place_date p{font-family: Dosis,sans-serif; font-weight: 400; font-size: 18px; color: #5E9A8E;}
+.wedding_events .col-md-7 .info p{font-family: Dosis,sans-serif; font-weight: 400; font-size: 22px; color: #5E9A8E;}
+.wedding_events .col-md-7 img{max-width: 100%;}
+/* wedding_events */
+    
+/* groomsmen_bridesmaid */
+.groomsmen_bridesmaid{padding: 30px 0px; background: #F7F7F7; position: relative;}
+.groomsmen_bridesmaid .groom_bride{text-align: center; margin: 3% 0%;}
+.groomsmen_bridesmaid .groom_bride .img img{max-width: 100%;}
+.groomsmen_bridesmaid .groom_bride .heading h2{color: #5E9A8E; background: #E2E2E2; padding: 15px 25px; display: inline-block; font-family: Great Vibes,sans-serif; font-weight: 500; font-size: 45px; margin-bottom: 15%;}
+.groomsmen_bridesmaid .row{margin-bottom: 5%;}
+.groomsmen_bridesmaid .col-md-4{padding: 0px 15px; box-sizing: border-box;}
+.groomsmen_bridesmaid .col-md-4 .profilebox{background: white; text-align: center;}
+.groomsmen_bridesmaid .col-md-4 .profilebox .name p{font-family: Dosis,sans-serif; font-weight: 600; font-size: 25px; color: #5E9A8E;}
+.groomsmen_bridesmaid .col-md-4 .profilebox .class span{font-family: Dosis,sans-serif; font-weight: 600; font-size: 18px; color: #5E9A8E;}
+.groomsmen_bridesmaid .col-md-4 .profilebox .profilephoto img{max-width: 100%;}
+.groomsmen_bridesmaid .col-md-4 .profilebox .socialmedia{padding: 5% 0% 5% 0%;}
+.groomsmen_bridesmaid .col-md-4 .profilebox .socialmedia ul{padding: 0%; margin: 0%;}
+.groomsmen_bridesmaid .col-md-4 .profilebox .socialmedia ul li{list-style-type: none; padding: 0px 10px; display: inline-flex;}
+.groomsmen_bridesmaid .col-md-4 .profilebox .socialmedia ul li a i{text-decoration: none; color: white; background: #5E9A8E; height: 40px; width: 40px; border-radius: 50%; text-align: center; padding: 10px; font-size: 22px; border: 1px solid #5E9A8E;}
+.groomsmen_bridesmaid .col-md-4 .profilebox .socialmedia ul li a i:hover{color: #5E9A8E; background: white; border: 1px solid #5E9A8E;}
+ 
+@media only screen and (max-width: 992px){
+    .groomsmen_bridesmaid .col-md-4 .profilebox .socialmedia ul li{padding: 0px 5px; display: inline-flex;}
+    .groomsmen_bridesmaid .col-md-4 .profilebox .socialmedia ul li a i{text-decoration: none; color: white; background: #5E9A8E; height: 30px; width: 30px; border-radius: 50%; text-align: center; padding: 6px; font-size: 18px; border: 1px solid #5E9A8E;}}
+
+    .owl-theme .owl-nav{
+       display: none;
+       zoom: 1;}
+    .owl-dots{
+       display: inline-block;
+       position: absolute;
+       top: -14%;
+       right: 0;
+       left: 0;}
+    .owl-theme .owl-dots .owl-dot span {
+       width: 170px;
+       height: 50px;
+       background: White;
+       display: block;
+       transition: opacity .2s ease;
+       border-radius: 0%;}
+
+    .owl-theme .owl-dots .owl-dot:first-child span::after{content: 'Groomsmen';}
+    .owl-theme .owl-dots .owl-dot:first-child span{padding-top: 13px;}
+    .owl-theme .owl-dots .owl-dot:last-child span::after{content: 'Bridesmaid';}
+    .owl-theme .owl-dots .owl-dot:last-child span{padding-top: 13px;}
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+        background: #5E9A8E;}
+
+    @media only screen and (max-width: 768px){
+        .owl-dots {
+            display: inline-block;
+            position: absolute;
+            top: -3.2%;
+            right: 0;
+            left: 0;}
+        .groomsmen_bridesmaid .groom_bride .heading h2 {
+            color: #5E9A8E;
+            background: #E2E2E2;
+            padding: 15px 25px;
+            display: inline-block;
+            font-family: Great Vibes,sans-serif;
+            font-weight: 500;
+            font-size: 45px;
+            margin-bottom: 25%;}}
+
+    @media only screen and (max-width: 416px){
+        .owl-dots {
+            display: inline-block;
+            position: absolute;
+            top: -5.8%;
+            right: 0;
+            left: 0;}
+        .groomsmen_bridesmaid .groom_bride .heading h2 {
+            color: #5E9A8E;
+            background: #E2E2E2;
+            padding: 15px 25px;
+            display: inline-block;
+            font-family: Great Vibes,sans-serif;
+            font-weight: 500;
+            font-size: 45px;
+            margin-bottom: 45%;}}
+
+    .owl-theme .owl-nav.disabled + .owl-dots {
+            margin-top: 0px;}
+              
+/* groomsmen_bridesmaid */
+
+/* ourgallery */
+.ourgallery{padding: 30px 0px 80px; background: white;}
+.ourgallery .gallery{text-align: center; margin: 3% 0%;}
+.ourgallery .gallery .img img{max-width: 100%;}
+.ourgallery .gallery .heading h2{color: #5E9A8E; background: #E2E2E2; padding: 15px 25px; display: inline-block; font-family: Great Vibes,sans-serif; font-weight: 500; font-size: 45px;}
+.ourgallery .row{display: flex;}
+.ourgallery .col-md-4 .row img{max-width: 100%; display: flex;}
+.ourgallery .col-md-4 .row{padding-bottom: 10px; display: flex;}
+.ourgallery .col-md-4{padding: 0px 5px; margin: 0%;}
+/* ourgallery */
+
+/* joinourparty */
+.joinourparty{padding: 30px 0px; background: url(../images/formbg.png); background-size: cover; overflow-x: hidden;}
+.joinourparty .party{text-align: center; margin: 3% 0%;}
+.joinourparty .party .img img{max-width: 100%;}
+.joinourparty .party .heading h2{color: #5E9A8E; background: #E2E2E2; padding: 15px 25px; display: inline-block; font-family: Great Vibes,sans-serif; font-weight: 500; font-size: 45px;}
+.joinourparty .container form{margin: 5% 15%; text-align: center;}
+.joinourparty .container form .col-md-6{padding: 5px 4px 5px 4px;}
+.joinourparty .container form .col-md-6 input::placeholder{padding: 5px 0px 0px 10px;}
+.joinourparty .container form .col-md-12 textarea{text-align: center;}
+.joinourparty .container form .col-md-12 textarea::placeholder{padding: 5px 0px 0px 10px;}
+.joinourparty .container form .col-md-6 input#name{width: 100%; padding: 15px 10px;}
+.joinourparty .container form .col-md-6 input#email{width: 100%; padding: 15px 10px;}
+.joinourparty .container form .col-md-6 input#number{width: 100%; padding: 15px 10px;}
+.joinourparty .container form .col-md-6 input#query{width: 100%; padding: 15px 10px;}
+.joinourparty .container form .col-md-12 textarea#msg{width: 100%; resize: none; overflow: hidden;}
+.joinourparty .container form .row{margin: 3% 0%; display: flex;}
+.joinourparty .container form input#submit{color: white; background: #5E9A8E; padding: 10px 20px;}
+.joinourparty .container form input#submit:hover{background: white; color: #5E9A8E;}
+.joinourparty .container form p{text-align: start; color: white; font-family: Dosis,sans-serif; font-weight: 600; font-size: 20px; margin-left: 15px;}
+/* joinourparty */
+
+/* gettingthere */
+.gettingthere{padding: 30px 0px 80px; background: #5E9A8E;}
+.gettingthere .getting_there{text-align: center; margin: 3% 0%;}
+.gettingthere .getting_there .img img{max-width: 100%;}
+.gettingthere .getting_there .heading h2{color: #5E9A8E; background: #E2E2E2; padding: 15px 25px; display: inline-block; font-family: Great Vibes,sans-serif; font-weight: 500; font-size: 45px;}
+.gettingthere .row{display: flex;}
+.gettingthere .row .col-md-6#end{text-align: end; padding-right: 5%;}
+.gettingthere .row .col-md-6#end p{color: white; font-family: Dosis,sans-serif; font-weight: 400; font-size: 20px;}
+.gettingthere .row .col-md-6#end span{color: white; font-family: Dosis,sans-serif; font-weight: 500; font-size: 30px;}
+.gettingthere .row .col-md-6#start{text-align: start; padding-left: 5%;}
+.gettingthere .row .col-md-6#start p{color: white; font-family: Dosis,sans-serif; font-weight: 400; font-size: 20px;}
+.gettingthere .row .col-md-6#start span{color: white; font-family: Dosis,sans-serif; font-weight: 500; font-size: 30px;}
+/* gettingthere */
+
+/* giftregistration */
+.giftregistration{padding: 30px 0px 80px; background: white;}
+.giftregistration .gift{text-align: center; margin: 3% 0%;}
+.giftregistration .gift .img img{max-width: 100%;}
+.giftregistration .gift .heading h2{color: #5E9A8E; background: #E2E2E2; padding: 15px 25px; display: inline-block; font-family: Great Vibes,sans-serif; font-weight: 500; font-size: 45px;}
+.giftregistration .row{display: flex;}
+.giftregistration .info{text-align: center;}
+.giftregistration .info p{font-family: Dosis,sans-serif; font-weight: 600; font-size: 25px; color: #5E9A8E;}
+.giftregistration .col-md-4{padding: 20px 10px; box-sizing: border-box;}
+.giftregistration .col-md-4 .site{padding: 20px 20px; border: 2px solid #5E9A8E; text-align: center;}
+.giftregistration .col-md-4 .site img{max-width: 100%;}
+/* giftregistration */
+
+/* bannerno_4 */
+.bannerno_4{background: url(../images/footerbg.png); background-size: cover; padding: 80px 0px; max-width: 100%;}
+.bannerno_4 .info{text-align: center; margin: 15% 0%;}
+.bannerno_4 .info h2{color: white; font-family: Great Vibes,sans-serif; font-weight: 500; font-size: 45px; padding-top: 20px;}
+.bannerno_4 .info p{color: white; font-family: Dosis,sans-serif; font-weight: 500; font-size: 25px; padding-bottom: 20px;}
+/* bannerno_4 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
